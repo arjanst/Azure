@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+    "title": "PuTTY",
+    "description": "Installs Vim 7.4.1641 using the Chocolatey package manager",
+    "tags": [
+        "Windows",
+        "Vim 7.4.1641"
+    ],
+    "iconUri": "",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File startChocolatey.ps1 -PackageList vim"
+    }
+}
